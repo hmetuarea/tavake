@@ -1,0 +1,35 @@
+body {
+    background-color: #cde;
+    font-family: system-ui;
+    margin: 0 auto;
+    max-width: 55em;
+    padding: 1vh 3vw;
+}
+
+header {
+    padding: 1em;
+    text-align: center;
+    display: block;
+    unicode-bidi: isolate;
+}
+
+.navigation {
+    text-align: center;
+    padding: 0;
+    display: block;
+    margin: 0;
+}
+
+nav {
+    display: inline-block;
+    justify-content: space-between;
+    background-color: rgb(103, 154, 183);
+    border-radius: 25px;
+    padding: 10px;
+}
+
+nav a {
+    display: inline-block;
+    padding: 20px;
+}
+
